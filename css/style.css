@@ -118,7 +118,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 570px;
+  height: 500px;
   background-color: #255ee9;
 
   background-image: url("../img/jumbo.png");
@@ -261,6 +261,11 @@ footer {
   display: inline-block;
   height: 20px;
   vertical-align: middle;
+}
+
+.fa-brands {
+  color: white;
+  margin: 0 8px;
 }
 
 .small-col h3 {
