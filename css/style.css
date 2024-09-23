@@ -54,6 +54,20 @@ footer {
   padding: 15px 20px;
 }
 
+.waves {
+  background-image: url(../img/wave.svg);
+  height: 100px;
+  background-size: contain;
+  filter: hue-rotate(90deg);
+}
+
+.reverse-waves {
+  background-image: url(../img/wave.svg);
+  height: 100px;
+  -webkit-transform: scaley(-1);
+  transform: scaley(-1);
+}
+
 /* 
 .debug {
   background-color: red;
