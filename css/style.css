@@ -1,0 +1,189 @@
+/* reset */
+
+/* da segnare sempre all'inizio del CSS */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* # UTILS */
+
+.container {
+  margin: 0 auto;
+  padding: 0;
+  width: 1000px;
+  max-width: 100%;
+}
+
+.hero > .container {
+  margin: 0 auto;
+  padding: 0;
+  width: 700px;
+  max-width: 100%;
+
+  height: 320px;
+  background-color: #ec81eb;
+  border: 2px dashed black;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+footer {
+  background-color: #222629;
+}
+
+/* 
+.debug {
+  background-color: red;
+}
+
+.debug .debug {
+  background-color: orange;
+}
+
+.debug .debug .debug {
+  background-color: yellow;
+} */
+
+/* HEADER */
+
+.upper-header {
+  background-color: #acd6e4;
+  padding: 20px 0px;
+}
+
+.header-flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #d7a522;
+}
+
+.header-sections {
+  padding: 5px 5px;
+  border: 2px dashed black;
+}
+
+/* logo pagina */
+.logo {
+  flex: 0 1 25%;
+}
+
+/* lista di navigazione nell'header */
+.navigation-list {
+  flex: 0 1 50%;
+}
+
+.link-list {
+  text-align: center;
+}
+
+.link-item {
+  display: inline-block;
+}
+
+/* pulsante di login */
+.login-button {
+  flex: 0 1 25%;
+  text-align: right;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+  background-color: #010088;
+}
+
+/* MAIN */
+
+/* sfondo sezione */
+.white-bkg-sections {
+  padding: 40px 0px;
+  background-color: white;
+}
+
+.grey-bkg-sections {
+  padding: 40px 0px;
+  background-color: #d2d2d2;
+}
+
+/* direzione card */
+.card {
+  display: flex;
+  height: 400px;
+}
+
+.reverse-card {
+  display: flex;
+  flex-direction: row-reverse;
+  height: 400px;
+}
+
+/* colorazione card */
+.big-card {
+  flex-basis: 60%;
+  background-color: #1e8ff7;
+  border: 2px dashed black;
+}
+
+.small-card {
+  flex-basis: 40%;
+  background-color: #f9bfcb;
+  border: 2px dashed black;
+}
+
+.green-card {
+  height: 700px;
+  background-color: #228822;
+  border: 2px dashed black;
+}
+
+/* FOOTER */
+
+/* sezione foooter per link */
+.upper-footer {
+  display: flex;
+  height: 500px;
+  padding: 10px 0px 30px 0px;
+  border-bottom: 1px solid white;
+}
+
+.small-col {
+  flex-basis: 35%;
+  background-color: #ee8081;
+  border: 2px dashed black;
+}
+
+.big-col {
+  display: flex;
+  flex-basis: 65%;
+  background-color: #1fafa6;
+}
+
+.big-card-item {
+  border: 2px dashed white;
+  flex-basis: 25%;
+}
+
+/* sezione footer per pulsanti */
+.lower-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  margin: 20px 0px 0px 0px;
+  background-color: #7efdd2;
+}
+
+.footer-btn {
+  padding: 5px 10px;
+  text-align: center;
+  background-color: #f6b3c2;
+  border: 2px dashed black;
+}
