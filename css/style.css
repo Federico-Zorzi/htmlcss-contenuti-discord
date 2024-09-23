@@ -46,7 +46,7 @@ footer {
 
 .small-btn {
   border-radius: 25px;
-  padding: 8px 10px;
+  padding: 10px 15px;
 }
 
 .big-btn {
@@ -104,7 +104,7 @@ footer {
 }
 
 /* pulsante di login */
-.log-button {
+.button {
   flex: 0 1 25%;
   text-align: right;
 }
@@ -142,7 +142,7 @@ footer {
   gap: 20px;
 }
 
-.download-btn {
+.upper-download .big-btn {
   background-color: white;
 }
 
@@ -191,6 +191,10 @@ footer {
   padding-left: 20px;
 }
 
+.description {
+  line-height: 25px;
+}
+
 .title-card {
   font-size: 2.5rem;
   margin-bottom: 25px;
@@ -201,10 +205,26 @@ footer {
   height: 360px;
 }
 
-.green-card {
-  height: 700px;
-  background-color: #228822;
-  border: 2px dashed black;
+.download-card {
+  min-height: 700px;
+  text-align: center;
+}
+
+.card-subtitle {
+  margin: 55px 0;
+}
+
+.card-question {
+  padding: 25px 40px;
+  font-size: 1.5rem;
+  background-image: url(../img/stars.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.lower-download .big-btn {
+  background-color: #7289da;
+  color: white;
 }
 
 /* FOOTER */
@@ -212,41 +232,69 @@ footer {
 /* sezione foooter per link */
 .upper-footer {
   display: flex;
-  height: 500px;
-  padding: 10px 0px 30px 0px;
-  border-bottom: 1px solid white;
+  min-height: 600px;
+  padding: 80px 0px 30px 0px;
+  border-bottom: 1px solid #7289da;
 }
 
 .small-col {
-  flex-basis: 35%;
-  background-color: #ee8081;
-  border: 2px dashed black;
+  flex-basis: 28%;
 }
 
 .big-col {
   display: flex;
-  flex-basis: 65%;
-  background-color: #1fafa6;
+  flex-basis: 72%;
+  gap: 40px;
+}
+
+.upper-footer h3 {
+  color: #7289da;
+}
+
+.language-selection {
+  margin-top: 10px;
+  color: white;
+  line-height: 40px;
+}
+
+.flag {
+  display: inline-block;
+  height: 20px;
+  vertical-align: middle;
+}
+
+.small-col h3 {
+  font-size: 2rem;
 }
 
 .big-card-item {
-  border: 2px dashed white;
   flex-basis: 25%;
+}
+
+.footer-list {
+  list-style-type: none;
+  line-height: 40px;
+}
+
+.footer-list li a {
+  color: white;
 }
 
 /* sezione footer per pulsanti */
 .lower-footer {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  height: 60px;
-  margin: 20px 0px 0px 0px;
-  background-color: #7efdd2;
+  align-items: baseline;
+  min-height: 130px;
+  padding: 10px 0px 0px 0px;
 }
 
 .footer-btn {
   padding: 5px 10px;
   text-align: center;
-  background-color: #f6b3c2;
-  border: 2px dashed black;
+}
+
+.sign-up-btn {
+  background-color: #7289da;
+  color: white;
 }
